@@ -1,0 +1,26 @@
+.App {
+    padding: 2rem;
+  }
+  
+  .add-movie-btn {
+    margin-bottom: 2rem;
+  }
+  
+  .movie-list {
+    margin-top: 2rem;
+  }
+  
+  .movie-card {
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+  }
+  
+  .movie-card img {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .filter {
+    margin-bottom: 2rem;
+  }
+  

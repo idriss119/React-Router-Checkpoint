@@ -1,0 +1,58 @@
+.movie-detail {
+    background: linear-gradient(135deg, hsl(260, 60%, 1%), #898e9d); 
+    color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .movie-detail img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .movie-detail h1 {
+    color: hsl(0, 10%, 72%);
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .movie-detail p {
+    color: hsl(226, 57%, 95%);
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .movie-trailer iframe {
+    border-radius: 8px;
+    margin: 20px 0;
+  }
+  
+  .back-home-button {
+    background-color: hsl(0, 62%, 84%);
+    color: hsl(0, 5%, 22%);
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+  }
+  
+  .back-home-button:hover {
+    background-color: hsl(16, 64%, 68%);
+  }
+  
+  .back-home-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2);
+  }
+  

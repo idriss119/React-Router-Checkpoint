@@ -1,0 +1,84 @@
+.movie-card {
+    background: linear-gradient(135deg, hsl(69, 4%, 32%), hwb(93 83% 13%)); 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.2s ease;
+  }
+  
+  .movie-card:hover {
+    transform: scale(1.02);
+  }
+  
+  .movie-poster {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .movie-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .movie-description {
+    font-size: 0.9rem;
+    color: #212423;
+    margin-bottom: 10px;
+  }
+  
+  .movie-rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #ffd700;
+    margin: 10px 0;
+  }
+  
+  .star {
+    margin: 0 2px;
+  }
+  
+  .empty {
+    color: #dcdcdc; 
+  }
+  
+  .half {
+    position: relative;
+  }
+  
+  .half::before {
+    content: '\f005'; 
+    position: absolute;
+    color: #ffd700;
+    width: 50%;
+    overflow: hidden;
+  }
+  
+  .movie-button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+  }
+  
+  .movie-button:hover {
+    background: #0056b3;
+  }
+  
+  a {
+    text-decoration: none; 
+    color: inherit; 
+  }
